@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:100,300,400,500,700');
+
+$blue: #3A454F;
+$bg-gray: #f4f6fb;
+$lightBlue: #36A9E1;
+$orange: #fcbc0d;
+
+.light{
+    font-family: 'Montserrat Light', sans-serif;
+}
+.mont{
+    font-family: 'Montserrat',sans-serif;
+}
+*, body, input::placeholder {
+    font-family: 'Montserrat',sans-serif !important;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row !important;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.align-items-right{
+    align-items: flex-end;
+}
+.align-content-between{
+    align-content: space-between;
+}
+.align-content-around{
+    align-content: space-around;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-start{
+    justify-content: flex-start !important;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.white{
+    color: white
+}
+
+//text
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.f-small{
+    font-size: 12px !important;
+}
+
+//size
+.w-100{
+    width: 100% !important;
+}
+.w-75{
+    width: 75%;
+}
+.w-50{
+    width: 50% !important;
+}
+.w-25{
+    width: 25%;
+}
+.w-auto{
+    width: auto;
+}
+.h-100{
+    height: 100%;
+}
+.full-height{
+    height: 100vh;
+}
+
+.m-0{
+    margin: 0 !important;
+}
+.p-24{
+    padding: 24px;
+}
+.p-4{
+    padding: 2rem !important;
+}
+.pl-24{
+    padding-left: 24px;
+}
+.pl-1{
+    padding-left: 0.25rem;
+}
+.mb-2{
+    margin-bottom: 0.5rem;
+}
+.mb-3{
+    margin-bottom: 1rem;
+}
+.mr-1{
+    margin-right: 0.25rem;
+}
+.mr-2{
+    margin-right: 0.5rem;
+}
+.mr-3{
+    margin-right: 1rem !important;
+}
+.mt-1{
+    margin-top: 0.25rem;
+}
+.mt-2{
+    margin-top: 0.5rem;
+}
+.mt-3{
+    margin-top: 1rem !important;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.p-0{
+    padding: 0;
+}
+.p-24{
+    padding: 24px;
+}
+
+.my-1{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.mx-2{
+    margin: 0 1rem;
+}
+.my-2{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+.p-3{
+    padding: 1.5rem !important
+}
+.ml-24{
+    margin-left: 24px;
+}
+
+
+//text alignment
+.text-center{
+    text-align: center;
+}
+
+//border
+.border-bottom{
+    border-bottom: 1px solid #edeff4 !important;
+}
+.border-top{
+    border-top: 1px solid #edeff4;
+}
+.border{
+    border: 1px solid #edeff4;
+}
+.border-0{
+    border: 0 !important;
+}
+.border-right{
+    border-right: 1px solid #edeff4;
+}
+
+.rounded{
+    border-radius: 4px;
+}
+
+//cursor
+.cursor{
+    cursor: pointer;
+}
+
+//status
+.success-status{
+    background-color: green;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+.failed-status{
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+.disabled-status{
+    background-color: gray;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+// colors
+.bg-blue{
+    background-color: $blue !important;
+}
+.bg-light-blue{
+    background-color: $lightBlue !important;
+}
+.bg-gray{
+    background-color: $bg-gray;
+}
+.bg-orange{
+    background-color: $orange;
+}
+.bg-white{
+    background: white;
+}
+.bg-black{
+    background: #262F37;
+}
+.bg-white{
+    background: white
+}
+
+.orange-text{
+    color: $orange
+}
+
+.blue-text{
+    color: $blue
+}
+
+.gray-text{
+    color: $bg-gray
+}
+
+.pre-height{
+    height: 42px;
+}
+.page-height{
+    height: calc(100vh - (42px));
+}
+.h-inherit{
+    height: inherit;
+}
+.h-200{
+    height: 200px;
+}
+
+.f-12{
+    font-size: 12px !important;
+}
+

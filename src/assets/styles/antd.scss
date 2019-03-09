@@ -1,0 +1,145 @@
+$orange: #fcbc0d;
+
+.no-border-input{
+    border: 0;
+
+    &:focus {
+        border: 0;
+        box-shadow: none;
+    }
+}
+
+// rounded card
+.rounded{
+    border-radius: 4px !important;
+}
+
+// search bar card
+#search{
+    .ant-card-body, .ant-card-wider-padding{
+        display: flex;
+        height: inherit;
+        padding: 0 24px;
+        width: 100%;
+    }
+}
+
+.movie-card{
+    border-radius: 4px;
+
+    .ant-divider-horizontal{
+        margin: 5px 0;
+        // margin-top: 5px;
+    }
+
+    .ant-divider-inner-text {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #bababa;
+        font-weight: bold;
+    }
+}
+
+.transparent-button{
+    border: 0;
+    box-shadow: none;
+    color: #e8e8e8;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #bababa;
+    font-weight: bold;
+
+    &:focus {
+        border: 0;
+        box-shadow: none;
+    }
+}
+
+// movie detail
+#movie-detail{
+    overflow-y: auto;
+    .ant-card-body{
+        padding-bottom: 0px;
+    }
+    .ant-menu{
+        border: 0;
+
+        .ant-menu-item{
+            font-weight: bold;
+        }
+
+        .ant-menu-item-selected, .ant-menu-item:hover{
+            border-bottom-color: $orange;
+            color: $orange;
+        }
+    }
+}
+
+// tag
+.ant-tag{
+    background-color: rgba(252, 188, 13, 0.15) !important;
+    color: rgb(252, 188, 13);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.movie-detail-genre{
+    .ant-card-head-title {
+        padding: 16px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+.movie-detail-card{
+    height: 200px;
+}
+
+// overview
+// overview
+$font-size: 12px;
+$line-height: 1.4;
+$lines-to-show: 10;
+
+.overview {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 400px;
+  height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+  margin: 0 auto;
+//   font-size: $font-size;
+  line-height: $line-height;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-12{
+    .ant-card-body {
+        padding: 12px 24px;
+    }
+}
+
+#orange-tab{
+    .ant-tabs-nav .ant-tabs-tab-active {
+        color: $orange;
+        font-weight: bold;
+    }
+    .ant-tabs-ink-bar {
+        background-color: $orange;
+    }
+    .ant-tabs-tab{
+        &:active, &:hover {
+            color: $orange !important
+        }
+    }
+}
+
+#cast-card{
+    .ant-card-meta-title{
+        white-space: unset;
+    }
+}

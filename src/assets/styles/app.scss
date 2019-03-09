@@ -1,0 +1,19 @@
+@import 'general';
+@import 'antd';
+// @import 'ant-customization';
+
+
+
+body{
+    margin: 0;
+    // font-family: 'Montserrat', sans-serif !important;
+    // font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+*{
+    outline: 0;
+}
+div{
+    // height: inherit;
+    box-sizing: border-box;
+}
